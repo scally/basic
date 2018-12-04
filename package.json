@@ -1,0 +1,24 @@
+{
+  "name": "@scally/basic",
+  "description": "Yet another standard library for Javascript",
+  "author": {
+    "url": "https://github.com/scally",
+    "name": "scally"
+  },
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc .",
+    "compile:watch": "tsc --watch .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.1"
+  }
+}
