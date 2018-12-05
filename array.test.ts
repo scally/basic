@@ -1,4 +1,4 @@
-import { unique } from './array'
+import { compact, unique } from './array'
 
 describe('unique', () => {
   describe('for an empty array', () => {
@@ -22,6 +22,16 @@ describe('unique', () => {
 
     it('removes duplicates', () => {
       expect(unique(array)).toEqual([1,2,3])
+    })
+  })
+})
+
+describe('compact', () => {
+  describe('for an empty array', () => {
+    const array: Array<Number> = []
+
+    it('is an empty array', () => {
+      expect(compact(array)).toEqual(array)
     })
   })
 })
