@@ -5,14 +5,14 @@
     "url": "https://github.com/scally",
     "name": "scally"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "license": "MIT",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "tsc .",
-    "compile": "tsc .",
-    "compile:watch": "tsc --watch .",
+    "prepublish": "rm -rf ./dist && tsc",
+    "compile": "tsc",
+    "compile:watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch"
   },
