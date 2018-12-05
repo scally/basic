@@ -11,7 +11,7 @@ yarn add @scally/basic
 ### Usage
 
 ```
-import { compact } from '@scally/basic/array'
+import { compact } from '@scally/basic'
 
 const withNulls = [1,2,3,null,undefined,4]
 console.log(compact(withNulls)) // [1,2,3,4]
