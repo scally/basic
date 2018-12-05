@@ -15,6 +15,7 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
+  "private": false,
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "jest": "^23.6.0",
